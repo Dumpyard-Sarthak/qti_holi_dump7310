@@ -1,0 +1,6 @@
+<oplus-config>
+    <!-- Xinzhou.Shi@GAMEECO, 2022/04/25, Add for pc connect feature start-->
+    <oplus-feature name="oplus.software.padconnect.support" />
+    <!-- end -->
+</oplus-config>
+

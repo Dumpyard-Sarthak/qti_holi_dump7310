@@ -1,0 +1,103 @@
+<oplus-config>
+    <!-- HeZhihui@NETWORK.REG.8515, 2020/06/12, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.set_wifi_sar_enabled"/>
+
+    <!-- ShiQianhua@NETWORK.DATA.8615, 2020/06/22, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.data_fast_recovery"/>
+
+    <!-- ZhaoKai@NETWORK.DATA.1256389, 2018/1/26 -->
+    <oplus-feature name="oplus.software.radio.data_hongbao"/>
+
+    <!-- Wanghui@NETWORK.REG.8745, 2020/07/13, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.air_interface_detect_support" />
+    <!-- Wanghui@NETWORK.REG.WangHui@NETWORK.REG.3005805, 2022/02/15, add for parsing nr cell info by diagnose -->
+    <oplus-feature name="oplus.software.radio.diagnose_parse_nr_cell_support" />
+
+    <!-- Asiga@NETWORK.POWER.26376, 2020/04/27, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.nwpower_app_network_monitor_switch_enable" />
+    <oplus-feature name="oplus.software.radio.nwpower_bg_app_net_control_switch_enable" />
+    <oplus-feature name="oplus.software.radio.nwpower_screenoff_app_net_control_switch_enable" />
+
+    <!-- YangZhaoJi@NETWORK.DATA.370035, 2020/09/12, add for find phone service feature toggle -->
+    <oplus-feature name="oplus.software.radio.find_phone" />
+
+    <!-- ZhunNian@NETWORK.DATA.829745, 2016/07/27, add for for bug 829745 -->
+    <oplus-feature name="oplus.software.radio.sms_set_default_app" />
+
+    <!-- HuangZihan@NETWORK.REG.26376, 2020/09/09, add for control SA based on location information-->
+    <oplus-feature name="oplus.software.radio.loc_control_switch" />
+    <oplus-feature name="oplus.software.radio.sa_apm_control" />
+    <oplus-feature name="oplus.software.radio.sa_tac_control" />
+    <!-- HuangZihan@NETWORK.REG.26376, 2020/09/09, add for close SA mode when modem dump frequently-->
+    <oplus-feature name="oplus.software.radio.disable_5g_nr_5gdump" />
+    <!-- HuangZihan@NETWORK.REG.26376, 2020/10/17, add for support check sim2 detect status -->
+    <oplus-feature name="oplus.software.radio.sim_detect_check_support" />
+    <!-- Xupeng@NETWORK.REG, 2020/3/23, Add for optimate the nr signal of NSA -->
+    <oplus-feature name="oplus.software.radio.nsa_signal_optim" />
+    <!-- ZhuNian@NETWORK.DATA, 2020/09/11, bugid:276081 -->
+    <oplus-feature name="oplus.software.radio.game_err"/>
+    <!-- DuanPengcheng@NETWORK.DATA, 2020/10/26, game space disable vice card feature -->
+    <oplus-feature name="oplus.software.radio.vice_card_game_mode"/>
+
+    <!-- LinJinBin@NETWORK.DATA.301424, 2020/10/14, modify for game paging optimization -->
+    <oplus-feature name="oplus.software.radio.game_paging"/>
+
+    <!-- ZhuangYunteng@NETWORK.REG.249851, 2020/10/30, add for smart5g-sa -->
+    <oplus-feature name="oplus.software.radio.smart5g_sa_enabled"/>
+    <!-- ZhuangYunteng@NETWORK.REG.7403, 2020/06/24, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.light_smart5g_enabled"/>
+
+    <!-- PengHao@NETWORK.DATA.8124, 2020/05/08, Add for network quality evaluation.OPLUS_FEATURE_DATA_EVAL -->
+    <oplus-feature name="oplus.software.radio.data_eval" />
+
+    <!-- PengHao@NETWORK.DATA.110873, 2020/06/28, Add for oppo background data limit, OPLUS_FEATURE_DATA_LIMIT. -->
+    <oplus-feature name="oplus.software.radio.data_limit" />
+
+    <!-- Xiaolong.Su@NETWORK.REG.313285, 2020/09/30, add for dual 5g Enable-->
+    <oplus-feature name="oplus.software.radio.support_dual_nr"/>
+
+    <!--WangJianwei@NETWORK.CALL, 2020/11/7,Add for SA Prefered-->
+    <oplus-feature name="oplus.software.radio.nr_always_sa_pre" />
+
+    <!-- CynricZhao@NETWORK.REG, 2020/12/30, smart5g ext rtt and nr signal -->
+    <oplus-feature name="oplus.software.radio.smart5g_rtt_check"/>
+    <oplus-feature name="oplus.software.radio.smart5g_nr_signal_check"/>
+    <oplus-feature name="oplus.software.radio.smart5g_game_latency_check"/>
+
+    <!-- ZhuNian@NETWORK.DATA, 2020/09/11, bugid:276081 -->
+    <oplus-feature name="oplus.software.radio.dds_switch"/>
+
+    <!-- pangwei@NETWORK.REG.7403, 2021/05/19, add for thermal nr deprio and hotspot enable Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.smart5g_thermal_nr_deprio" />
+
+    <!-- WanYu@NETWORK.DATA, 2021/02/28, nr dns rtt check -->
+    <oplus-feature name="oplus.software.radio.smart5g_nr_rtt_check"/>
+    <!-- WanYu@NETWORK.DATA, 2021/03/02, Disable SA when dns rtt high -->
+    <oplus-feature name="oplus.software.radio.smart5g_rtt_check_sa"/>
+
+    <!-- AnitaLin@NETWORK.TELE, 2021/01/11, crazyQueryTelephonyChecker -->
+    <oplus-feature name="oplus.software.radio.crazy_query_checker"/>
+
+    <!-- RadYeh@NETWORK.REG, 2021/02/20, Delay HD icon after disable SA -->
+    <oplus-feature name="oplus.software.radio.delay_volte_icon_after_disable_sa"/>
+
+    <!-- Aniyo.zhang@NETWORK.TELE, 2021/01/28, for bar cell -->
+    <oplus-feature name="oplus.software.radio.bar_cell"/>
+    <!-- CynricZhao@NETWORK.TELE, 2021/03/05, smart5g game deprio sa-->
+    <oplus-feature name="oplus.software.radio.smart5g_game_list_deprio_sa"/>
+    <!-- CynricZhao@NETWORK.TELE, 2021/03/05, smart5g game lte pref-->
+    <oplus-feature name="oplus.software.radio.smart5g_game_lte_prefer"/>
+
+    <!-- LiuHaipeng@NETWORK.POWER.1220508, 2021/08/26, modify for Power Recovery Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.nwpower_power_recovery_switch_enable" />
+    <!-- LinJinBin@NETWORK.DATA, 2021/08/26, sa data fail recovery switch -->
+    <oplus-feature name="oplus.software.radio.sa_data_recovery_enabled"/>
+    <!-- YaoHao@NETWORK.REG, 2021/08/27, signal abnormal recovery switch -->
+    <oplus-feature name="oplus.software.radio.signal_recovery_enabled"/>
+
+    <!-- Yaohao@NETWORK.REG.1893261, 2021/05/19, add for backoff SA when signal poor -->
+    <oplus-feature name="oplus.software.radio.enable_weak_signal_backoff"/>
+    <!-- Shiguibiao@NETWORK.RF.2854926, 2021/12/23, Add for psw2.0 STS support-->
+    <oplus-feature name="oplus.software.radio.sts_auto_answer_support" />
+    <oplus-feature name="oplus.software.radio.sar_via_sts_support" />
+</oplus-config>

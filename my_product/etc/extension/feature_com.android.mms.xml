@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extend_features>
+    <!-- temp for mms disable video mirror -->
+    <app_feature name="com.android.mms.disable_video_mirror"/>
+</extend_features>

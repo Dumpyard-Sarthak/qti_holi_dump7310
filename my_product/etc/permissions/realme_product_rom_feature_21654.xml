@@ -1,0 +1,8 @@
+<permissions>
+    <feature name="oppo.sys.light.func" />
+
+    <!-- ifdef VENDOR_EDIT -->
+    <!-- Jixiang.Nie@PSW.AD.OppoFeature, 2020/12/21, Add for third app judge whether it is a tablet -->
+    <feature name="oplus.hardware.type.tablet" />
+    <!-- endif VENDOR_EDIT -->
+</permissions>

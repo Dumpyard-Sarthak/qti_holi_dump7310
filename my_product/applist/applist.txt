@@ -1,0 +1,3 @@
+com.oplus.camera:OplusCameraPad.apk::false
+com.android.email:OplusEmail.apk::false
+com.oplus.ipemanager:IPeManager.apk::false

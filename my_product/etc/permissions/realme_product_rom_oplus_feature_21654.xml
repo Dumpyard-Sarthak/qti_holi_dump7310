@@ -1,0 +1,24 @@
+<oplus-config>
+
+   <!-- Rui.Liu@ANDORID.MULTIUSER, 2021/08/09, add for hide multi user entry -->
+   <oplus-feature name="oplus.software.multiuser_entry_disabled" />
+   <!-- Rui.Liu@ANDROID.MULTIUSER, 2021/08/09, add end -->
+
+    <!-- Zhouyafeng@ANDROID.INPUT, 2021/10/18, add for screen Off shorthand -->
+    <oplus-feature name="oplus.software.screen_off_shorthand" />
+
+    <!-- Zhouyafeng@ANDROID.INPUT, 2021/10/18, add end -->
+    <!-- Qiu.Yu@UIFramework.CompactWindow, 2021/10/26, Add for add compact window -->
+    <oplus-feature name="oplus.software.windowmode.compact" />
+    <!-- Qiu.Yu@UIFramework.CompactWindow, 2021/10/26, add end -->
+
+    <oplus-feature name="oplus.hardware.type.tablet" />
+
+    <!-- Nan.Lu, 2022/03/07, Add for tablet -->
+    <unavailable-oplus-feature name="oplus.software.defaultapp.remove_force_launcher" />
+
+    <oplus-feature name="oplus.software.notification.envelope_assistant_enable" />
+    <oplus-feature name="oplus.software.windowanimaiton.light" />
+    <oplus-feature name="oplus.software.icon_startingwindow.support" />
+
+</oplus-config>

@@ -1,0 +1,10 @@
+boot.img
+vendor_boot.img
+system_ext/apex/com.android.vndk.v30.apex
+odm/etc/camera/license_release_fdc.lic
+odm/etc/camera/sensetime
+odm/etc/camera/model/license.lic
+my_stock.img
+my_heytap.img
+my_product/app/OplusCameraPad/OplusCameraPad.apk
+my_bigball.img

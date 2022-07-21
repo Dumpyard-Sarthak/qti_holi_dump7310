@@ -1,0 +1,38 @@
+{
+    "isFunctionOpen":1,
+    "isParamAdjustOpen":1,
+    "appConfigList": [
+        {
+         "appName":"WeChat",
+         "packageName":"com.tencent.mm",
+         "portraitCenterParam":
+             {
+                 "isOpen": 1
+             }
+        },
+        {
+         "appName":"QQ",
+         "packageName":"com.tencent.mobileqq",
+         "portraitCenterParam":
+             {
+                 "isOpen": 1
+             }
+        },
+        {
+         "appName":"WeMeet",
+         "packageName":"com.tencent.wemeet.app",
+         "portraitCenterParam":
+             {
+                 "isOpen": 1
+             }
+        },
+        {
+         "appName":"Zoom",
+         "packageName":"us.zoom.videomeetings",
+         "portraitCenterParam":
+             {
+                 "isOpen": 1
+             }
+        }
+    ]
+}

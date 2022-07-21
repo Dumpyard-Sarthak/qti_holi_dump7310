@@ -1,0 +1,306 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "QRD", "HDK"],
+    "soc_id": ["321", "341", "507"]
+  },
+  "sx9372_0":{
+    "owner": "sx9372_0",
+    ".sar":{
+      "owner": "sx9372_0",
+      ".config":{
+        "owner": "sx9372_0",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "2"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  },
+  "sx9372_0_platform":{
+    "owner": "sns_sx9372",
+    ".config":{
+      "owner": "sns_sx9372",
+      "bus_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "bus_instance":{ "type": "int", "ver": "1",
+        "data": "2"
+      },
+      "slave_config":{ "type": "int", "ver": "0",
+        "data": "44"
+      },
+      "min_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "max_bus_speed_khz":{ "type": "int", "ver": "0",
+        "data": "400"
+      },
+      "reg_addr_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "48"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "3"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+      "data": "0"
+      }
+    },
+    ".placement":{
+      "owner": "sns_sx9372",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "2":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "3":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "4":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "5":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "6":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "7":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "8":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "9":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "10":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "11":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    },
+    ".thresh":{
+      "owner": "sns_sx9372",
+      "threshold_0":{ "type": "flt", "ver": "50",
+        "data": "25.0"
+      },
+      "threshold_1":{ "type": "flt", "ver": "50",
+        "data": "25.0"
+      },
+     "threshold_2":{ "type": "flt", "ver": "50",
+        "data": "25.0"
+      },
+      "threshold_3":{ "type": "flt", "ver": "50",
+        "data": "25.0"
+      }
+    },
+    ".offset":{
+      "owner": "sns_sx9372",
+      "0":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "1":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "2":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      },
+      "3":{ "type": "flt", "ver": "0",
+        "data": "0.0"
+      }
+    },
+    ".register":{
+      "owner": "sns_sx9372",
+        "Is_config":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "Is_debug":{ "type": "int", "ver": "0",
+          "data": "0"
+        },
+        "0x4004":{ "type": "int", "ver": "0",
+          "data": "0x00000070"
+        },
+        "0x8020":{ "type": "int", "ver": "0",
+          "data": "0x00000032"
+        },
+        "0x8028":{ "type": "int", "ver": "0",
+          "data": "0x42F"
+        },
+        "0x8034":{ "type": "int", "ver": "0",
+          "data": "0x42F"
+        },
+        "0x8040":{ "type": "int", "ver": "0",
+          "data": "0x42F"
+        },
+        "0x804C":{ "type": "int", "ver": "0",
+          "data": "0x42F"
+        },
+        "0x8058":{ "type": "int", "ver": "0",
+          "data": "0x42F"
+        },
+        "0x8064":{ "type": "int", "ver": "0",
+          "data": "0x42F"
+        },
+        "0x8030":{ "type": "int", "ver": "0",
+          "data": "0x00FEF9FF"
+        },
+        "0x803C":{ "type": "int", "ver": "0",
+          "data": "0x00F7F9FF"
+        },
+        "0x8048":{ "type": "int", "ver": "0",
+          "data": "0x00FFD9FF"
+        },
+        "0x8054":{ "type": "int", "ver": "0",
+          "data": "0x00FFF97F"
+        },
+        "0x8060":{ "type": "int", "ver": "0",
+          "data": "0x00FFF9FD"
+        },
+        "0x806C":{ "type": "int", "ver": "0",
+          "data": "0x00FFF9EF"
+        },
+        "0x8098":{ "type": "int", "ver": "0",
+          "data": "0x00000052"
+        },
+        "0x80B8":{ "type": "int", "ver": "0",
+          "data": "0x00000050"
+        },
+        "0x80D8":{ "type": "int", "ver": "0",
+          "data": "0x00000046"
+        },
+        "0x80F8":{ "type": "int", "ver": "0",
+          "data": "0x000000FF"
+        },
+        "0x8118":{ "type": "int", "ver": "0",
+          "data": "0x000000FF"
+        },
+        "0x8138":{ "type": "int", "ver": "0",
+          "data": "0x000000FF"
+        },
+        "0x80A0":{ "type": "int", "ver": "0",
+          "data": "0x272700E1"
+        },
+        "0x80C0":{ "type": "int", "ver": "0",
+          "data": "0x252500E2"
+        },
+        "0x80E0":{ "type": "int", "ver": "0",
+          "data": "0xDCDC00E3"
+        },
+        "0x8100":{ "type": "int", "ver": "0",
+          "data": "0x000000E0"
+        },
+        "0x8120":{ "type": "int", "ver": "0",
+          "data": "0x000000E0"
+        },
+        "0x8140":{ "type": "int", "ver": "0",
+          "data": "0x000000E0"
+        },
+        "0x8188":{ "type": "int", "ver": "0",
+          "data": "0x08000013"
+        },
+        "0x818C":{ "type": "int", "ver": "0",
+          "data": "0x08000014"
+        },
+        "0x8190":{ "type": "int", "ver": "0",
+          "data": "0x08000015"
+        },
+        "0x8090":{ "type": "int", "ver": "0",
+          "data": "0x649C7300"
+        },
+        "0x80B0":{ "type": "int", "ver": "0",
+          "data": "0x78887300"
+        },
+        "0x80D0":{ "type": "int", "ver": "0",
+          "data": "0x649C7300"
+        },
+        "0x80F0":{ "type": "int", "ver": "0",
+          "data": "0x00005300"
+        },
+        "0x8110":{ "type": "int", "ver": "0",
+          "data": "0x00005300"
+        },
+        "0x8130":{ "type": "int", "ver": "0",
+          "data": "0x00005300"
+        },
+        "0x8088":{ "type": "int", "ver": "0",
+          "data": "0x400001"
+        },
+        "0x80A8":{ "type": "int", "ver": "0",
+          "data": "0x400001"
+        },
+        "0x80C8":{ "type": "int", "ver": "0",
+          "data": "0x400001"
+        },
+        "0x80E8":{ "type": "int", "ver": "0",
+          "data": "0x400000"
+        },
+        "0x8108":{ "type": "int", "ver": "0",
+          "data": "0x400000"
+        },
+        "0x8128":{ "type": "int", "ver": "0",
+          "data": "0x400000"
+        },
+        "0x808C":{ "type": "int", "ver": "0",
+          "data": "0x20200031"
+        },
+        "0x80AC":{ "type": "int", "ver": "0",
+          "data": "0x20200031"
+        },
+        "0x80CC":{ "type": "int", "ver": "0",
+          "data": "0x20200031"
+        },
+        "0x80EC":{ "type": "int", "ver": "0",
+          "data": "0x20200031"
+        },
+        "0x810C":{ "type": "int", "ver": "0",
+          "data": "0x20200031"
+        },
+        "0x812C":{ "type": "int", "ver": "0",
+          "data": "0x20200031"
+        },
+        "0x8024":{ "type": "int", "ver": "0",
+          "data": "0x00003F3F"
+        },
+        "0x8274":{ "type": "int", "ver": "0",
+          "data": "0x00"
+        },
+        "0x816C":{ "type": "int", "ver": "0",
+          "data": "0x60200018"
+        }
+      }
+    }
+}

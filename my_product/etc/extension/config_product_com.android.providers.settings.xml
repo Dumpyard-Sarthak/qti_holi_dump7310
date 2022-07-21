@@ -1,0 +1,4 @@
+<settings_provider_config>
+
+    <settings_item name="persist.sys.oplus.otg_support"  value="1" category="global"/>
+</settings_provider_config>

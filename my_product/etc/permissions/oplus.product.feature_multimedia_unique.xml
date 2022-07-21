@@ -1,0 +1,7 @@
+<oplus-config>
+    <oplus-feature name="oplus.software.effect.surround_effect_support"/>
+    <!-- Hgx@MULTIMEDIA.AUDIOSERVER.FEATURE, 2022/03/22 , Add for DUALHEADPHONE start-->
+    <oplus-feature name="oplus.software.audio.dualheadphone"/>
+    <oplus-feature name="oplus.software.audio.dualheadphone.lite"/>
+    <!-- Hgx@MULTIMEDIA.AUDIOSERVER.FEATURE, 2022/03/22 , Add for DUALHEADPHONE end-->
+</oplus-config>

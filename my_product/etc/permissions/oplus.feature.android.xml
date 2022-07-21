@@ -1,0 +1,16 @@
+<oplus-config>
+  <oplus-feature name="oplus.software.app_resolution_switch" />
+
+   <!-- CaiChunchun@ANDROID.INPUT, 2020/11/25, add for wake up arouse -->
+   <oplus-feature name="oplus.software.wake_up_arouse_support" />
+   <!-- CaiChunchun@ANDROID.INPUT, 2020/11/25, add end -->
+
+   <!-- CaiChunchun@ANDROID.INPUT, 2021/07/07, add for blackgesture -->
+   <oplus-feature name="oplus.software.gesture_proximitysensor" />
+   <!-- CaiChunchun@ANDROID.INPUT, 2021/07/07, add end -->
+
+   <oplus-feature name="oplus.typecotg.connection.menu.support" />
+   <!-- HouJian@ANDROID.AMS, 2021/12/01, add for service/provider bind small core  -->
+   <oplus-feature name="oplus.software.bind_small_core" />
+   <!-- HouJian@ANDROID.AMS, 2021/12/01, add end -->
+</oplus-config>

@@ -1,0 +1,13 @@
+<!-- This file is auto-generated.  DO NOT MODIFY. -->
+<!-- COLOR_EDIT.  add oppo.screen.hovering.support ;remove oppo.narrow.frame -->
+<permissions>
+    <!-- ifdef VENDOR_EDIT -->
+    <!-- Haifeng.zhu@AD.Fingerprint.1952414, 2019/06/20, add for fingerpirnt feature -->
+    <!-- ifdef VENDOR_EDIT -->
+	<!-- zouzongze@vanyol.com ,3157923, 2022/02/22, remove fingerpirnt feature -->
+    <!--<feature name="android.hardware.fingerprint" />-->
+	<!-- endif VENDOR_EDIT -->
+    <!--<feature name="oppo.back.touch.fingerprint.sensor" />-->
+    <!--<feature name="oppo.hardware.fingerprint.optical.support" />-->
+    <!-- endif VENDOR_EDIT -->
+</permissions>

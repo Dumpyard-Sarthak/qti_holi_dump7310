@@ -1,0 +1,5 @@
+<oplus-config>
+    <!-- CaiChunchun@ANDROID.INPUT, 2020/11/25, add for wake up arouse -->
+    <oplus-feature name="oplus.software.wake_up_arouse_support" />
+    <!-- CaiChunchun@ANDROID.INPUT, 2020/11/25, add end -->
+</oplus-config>

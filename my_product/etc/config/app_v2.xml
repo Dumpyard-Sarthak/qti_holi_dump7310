@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+
+    <disable pkg="com.qualcomm.qti.simcontacts" priority="7"/>
+    <disable pkg="com.google.android.accessibility.soundamplifier" priority="7"/>
+    <disable pkg="com.coloros.scenemode" priority="7"/>
+
+    <!--for CtsAutoFillServiceTestCases -->
+    <disable pkg="com.oplus.securitykeyboard" priority="7"/>
+</app>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<appconfig>
+    <!-- hide uninstall icon when first api level lower than 31 -->
+    <uninstall_hide pkg="com.coloros.gallery3d" lt="31"/>
+    <uninstall_hide pkg="com.coloros.alarmclock" lt="31"/>
+    <uninstall_hide pkg="com.coloros.filemanager" lt="31"/>
+    <uninstall_hide pkg="com.coloros.calendar" lt="31"/>
+    <uninstall_hide pkg="com.heytap.browser" lt="31"/>
+    <uninstall_hide pkg="com.heytap.yoli" lt="31"/>
+    <uninstall_hide pkg="com.heytap.music" lt="31"/>
+    <uninstall_hide pkg="com.heytap.member" lt="31"/>
+    <uninstall_hide pkg="com.heytap.themestore" lt="31"/>
+    <uninstall_hide pkg="com.finshell.wallet" lt="31"/>
+    <uninstall_hide pkg="com.oplus.ai.assistant.extend" lt="31"/>
+
+    <!-- hide uninstall icon softly (only launcher) when first api level greater than 30 -->
+    <uninstall_soft_hide pkg="com.coloros.gallery3d" gt="30"/>
+    <uninstall_soft_hide pkg="com.coloros.alarmclock" gt="30"/>
+    <uninstall_soft_hide pkg="com.coloros.filemanager" gt="30"/>
+    <uninstall_soft_hide pkg="com.coloros.calendar" gt="30"/>
+    <uninstall_soft_hide pkg="com.heytap.browser" gt="30"/>
+    <uninstall_soft_hide pkg="com.heytap.yoli" gt="30"/>
+    <uninstall_soft_hide pkg="com.heytap.music" gt="30"/>
+    <uninstall_soft_hide pkg="com.heytap.member" gt="30"/>
+    <uninstall_soft_hide pkg="com.heytap.themestore" gt="30"/>
+    <uninstall_soft_hide pkg="com.finshell.wallet" gt="30"/>
+    <uninstall_soft_hide pkg="com.oplus.ai.assistant.extend" gt="30"/>
+
+    <!-- hide launch icon (only valid when app is system app) when first api level greater than 30 -->
+    <!-- <launch_hide pkg="com.coloros.phonemanager" gt="30"/> -->
+    <!-- <launch_hide pkg="com.heytap.cloud" gt="30"/> -->
+    <!-- <launch_hide pkg="com.android.stk" gt="30"/>  -->
+
+    <!-- show reminder when uninstall -->
+    <reminder_show pkg="com.coloros.gallery3d"/>
+    <reminder_show pkg="com.coloros.alarmclock"/>
+    <reminder_show pkg="com.coloros.filemanager"/>
+    <reminder_show pkg="com.coloros.calendar"/>
+    <reminder_show pkg="com.heytap.browser"/>
+    <reminder_show pkg="com.heytap.yoli"/>
+    <reminder_show pkg="com.heytap.music"/>
+    <reminder_show pkg="com.heytap.member"/>
+    <reminder_show pkg="com.heytap.themestore"/>
+    <reminder_show pkg="com.finshell.wallet"/>
+    <reminder_show pkg="com.oplus.ai.assistant.extend"/>
+    <reminder_show pkg="com.coloros.calculator"/>
+    <reminder_show pkg="com.coloros.weather2"/>
+    <reminder_show pkg="com.nearme.gamecenter"/>
+</appconfig>

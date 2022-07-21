@@ -1,0 +1,6 @@
+<oplus-config>
+    <oplus-feature name="oplus.software.wlan.auto_reconnect" />
+
+    <oplus-feature name="oplus.software.bt.switchlog" />
+
+</oplus-config>

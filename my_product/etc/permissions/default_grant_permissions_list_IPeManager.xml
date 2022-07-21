@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<packages>
+    
+	<!--Wangshijie@APP.IPeManager,2022/04/24,add for ipemanager app to grant permission -->
+    <default-grant-permissions package="com.oplus.ipemanager">
+        <permission name="android.permission.BLUETOOTH_SCAN" />
+        <permission name="android.permission.BLUETOOTH_CONNECT" />
+    </default-grant-permissions>
+
+
+</packages>
